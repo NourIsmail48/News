@@ -2,7 +2,7 @@ async function getData(category = "business", search = "", page = 1){
     let parameters = new URLSearchParams({
         category: category,
         q: search,
-        from: "2026-09-24",
+        from: "2026-11-6",
         sortBy: "publishedAt",
         apiKey: "4917d1774249420fb26680d3a107d332",
         pageSize: 10,
